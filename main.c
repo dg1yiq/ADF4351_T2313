@@ -42,9 +42,7 @@ int main(void)
                               , 0x4B3
                               , 0xBC803C
                               , 0x580005};
-     */
-    
-    
+      
     // 2m ZF
     // Reference=25MHz
     // RX 595.500MHz -> 739.550MHz-595.500MHz = 144.050MHz
@@ -55,7 +53,7 @@ int main(void)
                               , 0xAC803C
                               , 0x580005};
     
-    /*
+    
     // Test
     // 144.530 MHz
     uint32_t registers_rx[6] =  {0x2e09c0
@@ -64,17 +62,18 @@ int main(void)
                               , 0x4B3
                               , 0xcc803c
                               , 0x580005};
-  
+  */
      // Test
-    // 144.530 MHz
-     uint32_t registers_rx[6] =  {0x330010
-                               , 0x8008029
+    // 144.300 MHz
+     uint32_t registers_rx[6] =  {0x2e0160
+                               , 0x80083e9
                                , 0x4E42
                                , 0x4B3
-                               , 0xec803c
+                               , 0xcc803c
                                , 0x580005};
 
-      // Test
+/*    
+  // Test
      // 3496.52 -> 3. 10489.560 MHz
       uint32_t registers_rx[6] =  {0x4590D0
                                 , 0x8009389
